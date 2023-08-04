@@ -57,23 +57,35 @@ There is IDE of Borland C++ for Linux. It runs in DosBox. It is more than 30 yea
 
 <br />
 
-#### ***Smooth*** installation on PC:
+#### ***Smooth*** installation on PC linux distro debian:
 
 > ***Step by step:***
 >
 > 0. sudo apt-get update
 >
 > 1. sudo apt-get install -y git
->
+
 > 2. git clone https://github.com/ddan9/BorlandC-Linux
+> 
+> 3. sudo apt-get install -y dosbox
 >
-> 3. bash BorlandC-Linux/install.sh
+> 4. cd BorlandC-Linux
+> 
+> 5. chmod +x install.sh
 >
-> 4. bash Borland.sh
+> 6. chmod +x start.sh 
+>   
+> 7. bash BorlandC-Linux/install.sh
+>
+> 8. cp -R BorlandC-Linux ~ 
+>
+> 9. cd ~/BorlandC-Linux
+>
+> 10. bash start.sh
 >
 > ***Or by one command:***
 >
-> - sudo apt-get update && sudo apt-get install -y git && git clone https://github.com/ddan9/BorlandC-Linux && bash BorlandC-Linux/install.sh && bash Borland.sh
+> - sudo apt-get update && sudo apt-get install -y git dosbox && git clone https://github.com/ddan9/BorlandC-Linux && bash BorlandC-Linux/install.sh && bash BorlandC-Linux/start.sh
 
 [🔙 Menu](#Menu)
 
